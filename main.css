@@ -1,0 +1,76 @@
+.col-1 {
+  width: 6.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-2 {
+  width: 16.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-3 {
+  width: 26.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-4 {
+  width: 36.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-5 {
+  width: 46.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-6 {
+  width: 56.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-7 {
+  width: 66.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-8 {
+  width: 76.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-9 {
+  width: 86.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.col-10 {
+  width: 96.8%;
+  margin: 0.8%;
+  padding: 0.8%;
+  float: left;
+  background-color: orange; }
+
+.test {
+  background-color: green;
+  width: 500px;
+  height: 500px; }
+
+/*# sourceMappingURL=main.css.map */
