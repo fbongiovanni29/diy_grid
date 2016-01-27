@@ -1,68 +1,151 @@
-.col-1 {
-  width: 6.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (max-width: 500px) {
+  .col-1 {
+    width: 16.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-2 {
-  width: 16.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (min-width: 1200px) {
+  .col-1 {
+    width: 6.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-3 {
-  width: 26.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (max-width: 500px) {
+  .col-2 {
+    width: 36.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-4 {
-  width: 36.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (min-width: 1200px) {
+  .col-2 {
+    width: 16.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-5 {
-  width: 46.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (max-width: 500px) {
+  .col-3 {
+    width: 56.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-6 {
-  width: 56.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (min-width: 1200px) {
+  .col-3 {
+    width: 26.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-7 {
-  width: 66.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (max-width: 500px) {
+  .col-4 {
+    width: 76.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-8 {
-  width: 76.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (min-width: 1200px) {
+  .col-4 {
+    width: 36.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-9 {
-  width: 86.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (max-width: 500px) {
+  .col-5 {
+    width: 96.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
-.col-10 {
-  width: 96.8%;
-  margin: 0.8%;
-  padding: 0.8%;
-  float: left; }
+@media screen and (min-width: 1200px) {
+  .col-5 {
+    width: 46.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (max-width: 500px) {
+  .col-6 {
+    width: 116.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .col-6 {
+    width: 56.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (max-width: 500px) {
+  .col-7 {
+    width: 136.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .col-7 {
+    width: 66.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (max-width: 500px) {
+  .col-8 {
+    width: 156.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .col-8 {
+    width: 76.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (max-width: 500px) {
+  .col-9 {
+    width: 176.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .col-9 {
+    width: 86.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (max-width: 500px) {
+  .col-10 {
+    width: 196.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
+
+@media screen and (min-width: 1200px) {
+  .col-10 {
+    width: 96.8%;
+    margin: 0.8%;
+    padding: 0.8%;
+    float: left; } }
 
 .green {
-  background-color: green; }
+  background-color: green;
+  height: 200px; }
 
 .red {
-  background-color: red; }
+  background-color: red;
+  height: 200px; }
 
 .blue {
-  background-color: blue; }
+  background-color: blue;
+  height: 200px; }

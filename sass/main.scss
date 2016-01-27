@@ -1,21 +1,33 @@
 @for $i from 1 through 10 {
-     .col-#{$i} { 
-     	$width: (10 * $i) - 3.2;
-     	width: 1% * $width;
-     	margin: 0.8%;
-     	padding: 0.8%;
-     	float: left;
-     }   
- }
+  .col-#{$i} { 
+    @media screen and (max-width: 500px) {
+      $width: (10 * $i) - 1.6;
+      width: 2% * $width;
+      margin: 0.8%;
+      padding: 0.8%;
+      float: left;
+    }   
+    @media screen and (min-width: 1200px) {
+      $width: (10 * $i) - 3.2;
+      width: 1% * $width;
+      margin: 0.8%;
+      padding: 0.8%;
+      float: left;
+    }   
+  }
+}
 
 .green {
   background-color: green;
+  height: 200px;
 }
 
 .red {
   background-color: red;
+  height: 200px
 }
 
 .blue {
   background-color: blue;
+  height: 200px;
 }
