@@ -3,13 +3,13 @@ var sass = require("gulp-sass");
 var watch = require("gulp-watch");
 var webserver = require('gulp-webserver')
 //var browserSync = require("browser-sync");
-var reload = browserSync.reload;
+//var reload = browserSync.reload;
 
 gulp.task('webserver', function() {
   gulp.src('./')
-    .pipe(webserver({
-      livereload: true,
-    }));
+  .pipe(webserver({
+    livereload: true,
+  }));
 });
 
 gulp.task('sass', function(){
